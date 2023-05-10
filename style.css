@@ -16,3 +16,34 @@
   #parent * {
     font-size: inherit;
   }
+
+  #parent2 {
+    font-family: Helvetica,Arial,Verdana,sans-serif;
+    width: 1000px;
+    background-color: #13161a;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:60px;
+    padding-bottom:60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #parent2 * {
+    font-size: inherit;
+  }
+
+  .singleWord {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .singleWord:hover {
+    background-color: aqua;
+  }
+
